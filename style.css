@@ -338,7 +338,6 @@ body {
     display: none;
     flex-direction: column;
     background: white;
-    color: pink;
     position: absolute;
     right: 40px;
     top: 70px;
@@ -353,6 +352,7 @@ body {
 
   .hamburger {
     display: block;
+    color: pink;
   }
 /* ===================== */
 /*   MOBILE RESPONSIVE   */
@@ -404,6 +404,7 @@ body {
   to { opacity: 1; transform: translateY(0); }
 
 }
+
 
 
 
