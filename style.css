@@ -73,7 +73,7 @@ body {
   display: none;
   font-size: 28px;
   cursor: pointer;
-  color: #ff4fa3 !important; /* pink cantik */
+  color: pink;
   z-index: 2000;
 }
 
@@ -351,11 +351,11 @@ body {
   }
 
   .nav-menu a {
-    color: #ff4fa3 !important;
+    color: #ff4fa3;
   }
 
   .nav-menu a:hover {
-    color: #ffffff !important;
+    color: #ffffff;
   }
 
   .nav-menu.show {
@@ -413,3 +413,4 @@ body {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
