@@ -1,5 +1,7 @@
-// gallery.js
-
+function toggleMenu() {
+  const nav = document.querySelector(".nav-menu");
+  nav.classList.toggle("show");
+}
 document.addEventListener('DOMContentLoaded', () => {
   const items     = Array.from(document.querySelectorAll('.gallery-item img'));
   const lightbox  = document.getElementById('lightbox');
@@ -84,4 +86,5 @@ window.addEventListener('load', () => {
   audio.play().catch(() => {
     console.log("Autoplay diblokir, perlu interaksi pengguna.");
   });
+
 });
