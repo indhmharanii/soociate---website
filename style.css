@@ -334,6 +334,14 @@ body {
   padding-top: 10px;
   border-top: 1px solid #333;
 }
+/* Perbaikan khusus gambar di footer agar tidak terpengaruh aturan img lain */
+.footer .social-links img {
+    width: 35px !important;
+    height: 35px !important;
+    object-fit: contain !important;
+    border-radius: 50% !important;
+    margin-right: 10px;
+}
 
 /* ===== RESPONSIVE HP ===== */
 @media(max-width: 768px) {
@@ -372,4 +380,5 @@ body {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
 
