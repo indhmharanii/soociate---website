@@ -75,7 +75,11 @@ body {
   cursor: pointer;
   background-color: pink;
 }
-
+.menu-toggle {
+    background-color: pink;
+    padding: 10px;
+    border-radius: 8px;
+}
 /* ===== HERO SECTION ===== */
 .hero {
   height: 90vh;
@@ -406,5 +410,6 @@ body {
   to { opacity: 1; transform: translateY(0); }
 
 }
+
 
 
