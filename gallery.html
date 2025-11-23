@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SOOCIATE - Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<audio id="bgm" autoplay loop>
+    <source src="Tujuh Belas.mp3" type="audio/mpeg">
+  </audio>
+<header class="header">
+  <div class="header-left">
+    <img src="logokelas.jpeg" class="logo" alt="logo">
+    <span class="class-name">SOOCIATE</span>
+  </div>
+
+  <nav class="nav-menu">
+    <a href="index.html">Home</a>
+    <a href="tentang.html">Tentang Kami</a>
+    <a href="anggota.html">Anggota Kelas</a>
+    <a href="gallery.html" class="active">Gallery</a>
+  </nav>
+
+  <span class="hamburger" onclick="toggleMenu()">☰</span>
+</header>
+<section class="gallery-container" id="gallery">
+  <!-- contoh: gunakan path file yang sudah kamu upload -->
+  <!-- path contoh dari upload: /mnt/data/WhatsApp Image 2025-11-16 at 20.20.14.jpeg -->
+  <!-- URL-encode spasi agar aman dalam src -->
+  <div class="gallery-item"><img src="foto1.jpeg" alt="Foto 1"></div>
+  <div class="gallery-item"><img src="foto2.jpeg" alt="Foto 2"></div>
+  <div class="gallery-item"><img src="foto3.jpeg" alt="Foto 3"></div>
+  <div class="gallery-item"><img src="foto4.jpeg" alt="Foto 4"></div>
+  <div class="gallery-item"><img src="foto5.jpeg" alt="Foto 5"></div>
+  <div class="gallery-item"><img src="foto6.jpeg" alt="Foto 6"></div>
+  <div class="gallery-item"><img src="foto7.jpeg" alt="Foto 7"></div>
+  <div class="gallery-item"><img src="foto8.jpeg" alt="Foto 8"></div>
+  <div class="gallery-item"><img src="foto9.jpeg" alt="Foto 9"></div>
+  <div class="gallery-item"><img src="foto10.jpeg" alt="Foto 10"></div>
+</section>
+
+<div id="lightbox" class="lightbox" aria-hidden="true">
+  <button class="lb-close" id="lbClose" title="Close">&times;</button>
+  <button class="lb-prev" id="lbPrev" title="Previous">&#10094;</button>
+  <div class="lb-content">
+    <img id="lbImage" src="" alt="Large view">
+    <div id="lbCaption" class="lb-caption"></div>
+  </div>
+  <button class="lb-next" id="lbNext" title="Next">&#10095;</button>
+</div>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-col">
+      <h3>SOOCIATE</h3>
+      <p>Dalam lembaran perjalanan kita, SMA adalah bab yang tak akan pernah terlupakan.</p>
+    </div>
+    <div class="footer-col">
+      <h3>Media Sosial</h3>
+      <div class="social-links">
+        <a href="https://www.instagram.com/soociate"><img src="logoig.png" alt="ig"></a>
+        <a href="https://www.tiktok.com/@soociatee"><img src="logotiktok.png" alt="tt"></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h3>Link</h3>
+      <a href="index.html">Home</a>
+      <a href="tentang.html">Tentang Kami</a>
+      <a href="anggota.html">Anggota Kelas</a>
+      <a href="gallery.html">Gallery</a>
+    </div>
+    <div class="footer-col">
+      <h3>Alamat</h3>
+      <p>SMAN 1 Bone</p>
+      <p>Jl. Ternate No. 1 Watampone</p>
+      <p>Indonesia</p>
+    </div>
+  </div>
+  <div class="footer-bottom">© SOOCIATE 2025 — Website By <b>Lukman Nur Husnul</b></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
