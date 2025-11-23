@@ -61,6 +61,7 @@ body {
   font-size: 17px;
   font-weight: 500;
   color: white;
+  background-color: pink;
 }
 
 .nav-menu a:hover {
@@ -404,3 +405,4 @@ body {
   to { opacity: 1; transform: translateY(0); }
 
 }
+
