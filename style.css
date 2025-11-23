@@ -72,6 +72,8 @@ body {
   display: none;
   font-size: 28px;
   cursor: pointer;
+  color: #ff4fa3 !important; /* pink cantik */
+  z-index: 2000;
 }
 
 /* ===== HERO SECTION ===== */
@@ -404,6 +406,7 @@ body {
   to { opacity: 1; transform: translateY(0); }
 
 }
+
 
 
 
