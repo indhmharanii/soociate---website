@@ -12,7 +12,7 @@
   align-items: center;
   box-shadow: 0 0px 10px #0001;
   z-index: 1000;
-  color: pink;
+  color: #fff;
 }
 
 .header-left {
@@ -60,8 +60,7 @@ body {
   text-decoration: none;
   font-size: 17px;
   font-weight: 500;
-  color: pink;
-  background-color: white;
+  color: white;
 }
 
 .nav-menu a:hover {
@@ -73,9 +72,8 @@ body {
   display: none;
   font-size: 28px;
   cursor: pointer;
-  background: pink
-  color: white;
 }
+
 /* ===== HERO SECTION ===== */
 .hero {
   height: 90vh;
@@ -168,6 +166,12 @@ body {
   font-size: 38px;
   font-weight: 800;
   color: #d81b60;
+}
+
+.anggota-header p {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #444;
 }
 
 /* ===== GALLERY GRID ===== */
@@ -328,7 +332,6 @@ body {
   padding-top: 10px;
   border-top: 1px solid #333;
 }
-
 /* ===== RESPONSIVE HP ===== */
 @media(max-width: 768px) {
   .nav-menu {
@@ -400,6 +403,7 @@ body {
   to { opacity: 1; transform: translateY(0); }
 
 }
+
 
 
 
