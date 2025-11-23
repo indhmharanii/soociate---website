@@ -337,7 +337,8 @@ body {
   .nav-menu {
     display: none;
     flex-direction: column;
-    background: pink;
+    background: white;
+    color: pink;
     position: absolute;
     right: 40px;
     top: 70px;
@@ -403,6 +404,7 @@ body {
   to { opacity: 1; transform: translateY(0); }
 
 }
+
 
 
 
