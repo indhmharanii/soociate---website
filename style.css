@@ -12,7 +12,7 @@
   align-items: center;
   box-shadow: 0 0px 10px #0001;
   z-index: 1000;
-  color: #fff;
+  color: pink;
 }
 
 .header-left {
@@ -406,6 +406,7 @@ body {
   to { opacity: 1; transform: translateY(0); }
 
 }
+
 
 
 
