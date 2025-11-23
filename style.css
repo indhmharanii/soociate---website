@@ -348,6 +348,14 @@ body {
     border-radius: 8px;
     box-shadow: 0 3px 15px #0002;
   }
+  .nav-menu a {
+    color: #ff4fa3 !important;   /* pink cantik */
+  }
+
+  .nav-menu a:hover {
+    color: #ffffff !important;   /* putih biar jelas saat hover */
+  }
+}
 
   .nav-menu.show {
     display: flex;
@@ -406,6 +414,7 @@ body {
   to { opacity: 1; transform: translateY(0); }
 
 }
+
 
 
 
