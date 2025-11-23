@@ -73,6 +73,7 @@ body {
   display: none;
   font-size: 28px;
   cursor: pointer;
+  background-color: pink;
 }
 
 /* ===== HERO SECTION ===== */
@@ -405,4 +406,5 @@ body {
   to { opacity: 1; transform: translateY(0); }
 
 }
+
 
