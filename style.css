@@ -158,23 +158,28 @@ body {
   background: linear-gradient(to bottom, #fce4ec, #ffffff);
 }
 
-/* Judul anggota */
-.anggota-header {
-  text-align: center;
-  margin-top: 130px;
-  margin-bottom: 30px;
 }
 
-.anggota-header h1 {
-  font-size: 38px;
-  font-weight: 800;
-  color: #d81b60;
+/* Efek hover (cantik tapi lembut) */
+.anggota-grid .box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.anggota-header p {
-  font-size: 18px;
-  margin-top: 5px;
-  color: #444;
+/* Foto anggota */
+.anggota-grid .box img {
+    width: 60%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+/* Nama anggota */
+.anggota-grid .box h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
 }
 
 /* ===== GALLERY GRID ===== */
@@ -365,11 +370,20 @@ body {
   .hamburger {
     display: block;
   }
+.anggota-grid {
+        grid-template-columns: 1fr;
+        width: 95%;
+        gap: 14px;
+    }
 
-  .anggota-grid {
-    grid-template-columns: 1fr 1fr;
-  }
+    .anggota-grid .box img {
+        width: 80%;
+    }
 
+    .anggota-header h1 {
+        font-size: 26px;
+    }
+}
   .footer-container {
     grid-template-columns: 1fr 1fr;
   }
@@ -413,3 +427,4 @@ body {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
